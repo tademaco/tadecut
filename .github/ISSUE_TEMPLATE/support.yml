@@ -1,0 +1,15 @@
+name: Support request
+description: A question, a problem or an idea for TadeCut
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What's up?
+      description: Describe your question or problem. For a problem, say what you did and what happened.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: macOS and TadeCut version
+      placeholder: e.g. macOS 15.2, TadeCut 1.0
