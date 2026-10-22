@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — TadeCut</title>
+  <meta name="description" content="Help for TadeCut: quick start, FAQ, keyboard shortcuts and contact.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="assets/icon-512.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img class="brand-icon" src="assets/icon-512.png" alt="" width="32" height="32">TadeCut</a>
+    <nav class="nav" aria-label="Main">
+      <a class="nav-optional" href="index.html#features">Features</a>
+      <a href="support.html" aria-current="page">Support</a>
+      <a href="index.html#price">Buy</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="doc">
+  <div class="wrap narrow">
+    <h1>Support</h1>
+    <p class="lead">Stuck, found a bug, or have an idea? Email <a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a>. A real person reads every message.</p>
+    <p class="meta">Tip: tell us your macOS version, your Mac model, and where the video came from (phone, drone, action cam).</p>
+
+    <h2 id="quick-start">Quick start</h2>
+    <ol>
+      <li><strong>Add videos.</strong> Drag one or more videos into the window, or press <kbd>⌘O</kbd>.</li>
+      <li><strong>Cut.</strong> Move the playhead and press <kbd>S</kbd> to split. Use <kbd>I</kbd> and <kbd>O</kbd> to trim the start and end of a clip, or drag its edges. Drag clips to reorder them. Press <kbd>⌘D</kbd> to duplicate a clip if you want two different crops of the same moment.</li>
+      <li><strong>Frame.</strong> Pick an output shape: 9:16, 4:5 or 1:1. Drag the frame to move it, scroll or pinch to zoom. Choose <em>Static</em> (<kbd>1</kbd>) for one position, or <em>Moving</em> (<kbd>2</kbd>) and add keyframes with <kbd>K</kbd>. The frame glides smoothly between them.</li>
+      <li><strong>Sound.</strong> Mute clips you don’t want to hear. Add a music track, set the volume and choose where in the song it starts. It fades out automatically at the end.</li>
+      <li><strong>Export.</strong> Press <kbd>⌘E</kbd>. You get a 1080p MP4 (H.264 + AAC), ready to upload.</li>
+    </ol>
+    <p>Watch the phone-shaped preview while you edit; it shows exactly what your export will look like.</p>
+
+    <h2 id="faq">FAQ</h2>
+    <div class="faq">
+      <details>
+        <summary>Which video formats are supported?</summary>
+        <p>Any normal Mac video: MP4 and MOV, including H.264 and HEVC (H.265), up to 4K, from phones, drones and action cams. If QuickTime Player on your Mac can play it, TadeCut can usually open it.</p>
+      </details>
+      <details>
+        <summary>Why does my export have no sound?</summary>
+        <p>Two common reasons: the clip is muted in TadeCut (check the mute toggle on each clip), or the source video has no audio track at all. Many drones record without sound. Add a music track if you want audio.</p>
+      </details>
+      <details>
+        <summary>Can I use any song?</summary>
+        <p>TadeCut will let you add any audio file, but you need the rights to use it. Commercial songs are usually licensed for personal listening only. Instagram, TikTok and YouTube may mute or remove videos with unlicensed music. Royalty-free music, or adding the platform’s own licensed audio in their app after uploading, are safer choices.</p>
+      </details>
+      <details>
+        <summary>Where is my autosave?</summary>
+        <p>TadeCut saves your work automatically while you edit and restores it when you reopen the app. The autosave lives in the app’s own Application Support folder on your Mac (for the App Store version: <code>~/Library/Containers/co.tadema.TadeCut/Data/Library/Application Support/TadeCut/Autosave.tadecut</code>). To keep a project, use File › Save Project (<kbd>⌘S</kbd>) to create your own <code>.tadecut</code> file.</p>
+      </details>
+      <details>
+        <summary>I moved my videos and now my project can’t find them.</summary>
+        <p>A <code>.tadecut</code> project doesn’t contain your videos; it remembers where they are on your Mac. If you move, rename or delete the source files (or unplug the drive they are on), the project can’t find them. Put the files back in their original location, or reconnect the drive, and open the project again.</p>
+      </details>
+      <details>
+        <summary>What are the system requirements?</summary>
+        <p>macOS 14 Sonoma or later, on a Mac with Apple silicon or Intel. Editing 4K HEVC is smoothest on Apple silicon.</p>
+      </details>
+      <details>
+        <summary>What does the export look like?</summary>
+        <p>A 1080p MP4 file with H.264 video and AAC audio, in the shape you picked: 9:16 (1080×1920), 4:5 (1080×1350) or 1:1 (1080×1080).</p>
+      </details>
+      <details>
+        <summary>Does TadeCut upload my videos?</summary>
+        <p>No. Everything happens on your Mac, offline. There is no account and no tracking. See the <a href="privacy.html">Privacy Policy</a>.</p>
+      </details>
+      <details>
+        <summary>How do I get a refund?</summary>
+        <p>Purchases are handled by Apple. Request a refund at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+      </details>
+    </div>
+
+    <h2 id="shortcuts">Keyboard shortcuts</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Key</th><th scope="col">Action</th></tr></thead>
+        <tbody>
+          <tr><td><kbd>Space</kbd></td><td>Play / pause</td></tr>
+          <tr><td><kbd>S</kbd></td><td>Split clip at the playhead</td></tr>
+          <tr><td><kbd>I</kbd> / <kbd>O</kbd></td><td>Trim start / end to the playhead</td></tr>
+          <tr><td><kbd>⌫</kbd></td><td>Delete clip</td></tr>
+          <tr><td><kbd>⌘D</kbd></td><td>Duplicate clip</td></tr>
+          <tr><td><kbd>1</kbd> / <kbd>2</kbd></td><td>Static / Moving frame</td></tr>
+          <tr><td><kbd>K</kbd></td><td>Add or remove keyframe</td></tr>
+          <tr><td><kbd>[</kbd> / <kbd>]</kbd></td><td>Previous / next keyframe</td></tr>
+          <tr><td><kbd>=</kbd> / <kbd>−</kbd></td><td>Zoom frame in / out</td></tr>
+          <tr><td><kbd>C</kbd></td><td>Center frame</td></tr>
+          <tr><td><kbd>⌘Z</kbd></td><td>Undo (<kbd>⇧⌘Z</kbd> to redo)</td></tr>
+          <tr><td><kbd>⌘E</kbd></td><td>Export</td></tr>
+          <tr><td><kbd>⌘O</kbd></td><td>Add videos</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 id="contact">Contact</h2>
+    <p>Email <a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a>. We usually reply within a few working days. Company details are in the <a href="imprint.html">Imprint</a>.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 COMPANY_NAME</span>
+    <nav aria-label="Footer">
+      <a href="support.html" aria-current="page">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="imprint.html">Imprint</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
